@@ -9,6 +9,9 @@ public class GroupBasic {
         newPassword = input.next();
         if (newPassword.compareTo(password) == 0) {
             System.out.println("Correct password");
+        } else {
+            System.out.println("Wrong password");
         }
+        input.close();
     }
 }
